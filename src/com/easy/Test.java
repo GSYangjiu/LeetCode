@@ -5,8 +5,9 @@ package com.easy;
  */
 public class Test {
     public static void main(String[] args){
-        ReverseInteger_7 test = new ReverseInteger_7();
-        System.out.print(test.reverse(123));
+        LongestCommonPrefix_14 test = new LongestCommonPrefix_14();
+        String[] strs = {"DCXXI","DC","DCX"};
+        System.out.print(test.longestCommonPrefix(strs));
     }
 
 }

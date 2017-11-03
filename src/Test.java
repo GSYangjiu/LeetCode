@@ -1,4 +1,4 @@
-package com.easy;
+import com.easy.LongestCommonPrefix_14;
 
 /**
  * Created by Marik on 2017/7/16.

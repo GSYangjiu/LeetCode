@@ -1,13 +1,14 @@
 package com.easy;
 
+import java.util.Stack;
+
 /**
  * Created by Marik on 2017/7/16.
  */
 public class Test {
     public static void main(String[] args){
-        LongestCommonPrefix_14 test = new LongestCommonPrefix_14();
-        String[] strs = {"DCXXI","DC","DCX"};
-        System.out.print(test.longestCommonPrefix(strs));
+        MaximumSubarray_53 maximumSubarray_53 = new MaximumSubarray_53();
+        int[] nums = {-2,1,-3,4,-1,2,1,-5,4};
+        System.out.print(maximumSubarray_53.maxSubArray(nums));
     }
-
 }

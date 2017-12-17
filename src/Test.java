@@ -1,4 +1,4 @@
-package com.easy;
+import com.easy.LongestCommonPrefix_14;
 
 import java.util.Stack;
 
